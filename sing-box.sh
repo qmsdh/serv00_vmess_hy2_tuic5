@@ -874,7 +874,7 @@ create_shortcut() {
   cat > "$work_dir/sb.sh" << EOF
 #!/usr/bin/env bash
 
-bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sing-box.sh) \$1
+bash <(curl -Ls https://raw.githubusercontent.com/qmsdh/serv00_vmess_hy2_tuic5/main/sing-box.sh) \$1
 EOF
   chmod +x "$work_dir/sb.sh"
   ln -sf "$work_dir/sb.sh" /usr/bin/sb
@@ -1352,6 +1352,7 @@ menu() {
    clear
    echo ""
    purple "=== 老王sing-box一键安装脚本 ===\n"
+   purple "脚本来源于老王（https://github.com/eooce），由秋名山（qmsdh.com）存档"
    purple "---Argo 状态: ${check_argo_status}"   
    purple "--Nginx 状态: ${check_nginx_status}"
    purple "singbox 状态: ${check_singbox_status}\n"

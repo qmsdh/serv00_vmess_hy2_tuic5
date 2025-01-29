@@ -161,7 +161,7 @@ run_remote_command() {
     local argo_domain=${10}
     local argo_auth=${11}
 
-    remote_command="SUB_TOKEN=$SUB_TOKEN UUID=$UUID NEZHA_SERVER=$nezha_server NEZHA_PORT=$nezha_port NEZHA_KEY=$nezha_key ARGO_DOMAIN=$argo_domain ARGO_AUTH='$argo_auth' CFIP=$CFIP CFPORT=$CFPORT bash <(curl -Ls https://raw.githubusercontent.com/eooce/sing-box/main/sb_00.sh)"
+    remote_command="SUB_TOKEN=$SUB_TOKEN UUID=$UUID NEZHA_SERVER=$nezha_server NEZHA_PORT=$nezha_port NEZHA_KEY=$nezha_key ARGO_DOMAIN=$argo_domain ARGO_AUTH='$argo_auth' CFIP=$CFIP CFPORT=$CFPORT bash <(curl -Ls https://raw.githubusercontent.com/qmsdh/serv00_vmess_hy2_tuic5/main/sb_00.sh)"
     
     sshpass -p "$ssh_pass" ssh -o StrictHostKeyChecking=no -o ConnectTimeout=60 "$ssh_user@$host" "$remote_command"
 }
