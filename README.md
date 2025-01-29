@@ -1,5 +1,5 @@
 # 使用前必看
-本脚本并非我创作，并非我修改，而是源自于老王的sing-box。（https://github.com/eooce/Sing-box）
+本脚本并非我创作，并非我修改，而是源自于老王的sing-box。（https://github.com/eooce/Sing-box ）
 
 ## 具体使用方法请见秋名山博客：
 https://blog.qmsdh.com/index.php/archives/35/
