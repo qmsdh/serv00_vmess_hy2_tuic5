@@ -1,3 +1,9 @@
+# 使用前必看
+本脚本并非我创作，并非我修改，而是源自于老王的sing-box。（https://github.com/eooce/Sing-box）
+
+## 具体使用方法请见秋名山博客：
+https://blog.qmsdh.com/index.php/archives/35/
+
 # 1：vps一键命令，已集成到ssh工具箱中
 * 一键四协议安装脚本，支持纯v6 VPS，支持订阅，默认解锁GPT和奈飞
 * 最好用的四协议组合vless-reality|vmess-ws-tls(argo)|hysteria2|tuic5
